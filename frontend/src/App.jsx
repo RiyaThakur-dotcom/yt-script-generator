@@ -36,7 +36,7 @@ export default function App() {
     if (!topic.trim()) { setError("Arre, topic toh likho pehle!"); return; }
     setError(""); setScript(null); setLoading(true);
     try {
-      const res = await fetch("http://localhost:8000/generate", {
+      const res = await fetch("https://riya-thakur2-yt-script-backend.hf.space/generate", {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({ topic, video_type: vtype, duration, tone }),
