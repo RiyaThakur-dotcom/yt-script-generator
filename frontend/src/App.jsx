@@ -113,7 +113,7 @@ export default function App() {
           {!script&&!loading&&(
             <div className="card phcard">
               <div className="phicon">🎬</div>
-              <p className="phtitle">Tera script yahan aayega</p>
+              <p className="phtitle">Apka script yahan aayega</p>
               <p className="phsub">Topic daal ke Generate karo — poori Hinglish script ready ho jaayegi seconds mein!</p>
             </div>
           )}
